@@ -1,0 +1,89 @@
+pageInfo:
+  title: Intranet VEM.
+  description: Portal interno de acesso rápido
+  navLinks: []
+  footerText: Intranet
+
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: medium
+  language: pt-BR
+
+
+
+sections:
+
+  - name: Administrativo
+    icon: fas fa-building
+    items:
+      - title: Cartão VEM
+        icon: favicon
+        url: https://cartaovem.com.br/home
+        target: newtab
+
+  - name: TIC
+    icon: fas fa-network-wired
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+  - name: SAC
+    icon: fas fa-headset
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+  - name: Rodoviario
+    icon: fas fa-bus
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+  - name: Bureau
+    icon: fas fa-print
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+  - name: Atendimento
+    icon: fas fa-users
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+  - name: Supervisão Atendimento
+    icon: fas fa-user-tie
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+  - name: Supervisão SAC
+    icon: fas fa-user-cog
+    items:
+      - title: Cartão VEM
+        icon: fas fa-id-card
+        url: https://cartaovem.com.br
+        target: newtab
+
+
+  - name: Livre Acesso
+    icon: fas fa-user-cog
+    items:
+      - title: Cartão VEM
+        icon: favicon
+        url: https://vemlivreacesso.com.br/odin
+        target: newtab
+  

@@ -11,7 +11,6 @@ appConfig:
   defaultOpeningMethod: newtab
   enableSearch: true
   enableFontAwesome: true
-
 sections:
   - name: Administrativo
     icon: fas fa-building
@@ -80,16 +79,53 @@ sections:
     icon: fas fa-tools
     items:
       - title: VERDANA (Zabbix / Verdanatech)
-        icon: favicon
+        icon: fas fa-server
         url: https://atendimento.verdanatech.com
         id: 0_2166_verdanazabbixverdanatech
-
+      - title: Verdana
+        description: '8130914252'
+        icon: fas fa-phone
+        url: ''
+        target: modal
+        id: 1_2166_contatoverdana
+      - title: Email VERDANA
+        icon: fas fa-envelope
+        url: mailto:atendimento@verdanatech.com
+        id: 2_2166_emailverdana
+      - title: PROCENGE (Piramide)
+        icon: fas fa-phone
+        url: '81991450999'
+        target: modal
+        id: 3_2166_procengepiramide
       - title: SURFIX (Veeam Cloud)
-        icon: favicon
+        icon: fas fa-database
         url: https://surfixdatacenter.movidesk.com
         id: 4_2166_surfixveeamcloud
-
+      - title: Telefone SURFIX
+        icon: fas fa-phone
+        url: tel:08000810500
+        id: 5_2166_telefonesurfix
       - title: INORPEL (Firewall)
-        icon: favicon
+        icon: fas fa-shield-alt
         url: https://inorpel-cybersecurity.movidesk.com/Account/Login?ReturnUrl=%2f
         id: 6_2166_inorpelfirewall
+      - title: Telefone INORPEL
+        icon: fas fa-phone
+        url: tel:+5583988024263
+        id: 7_2166_telefoneinorpel
+      - title: HOTLINK (Internet)
+        icon: fas fa-wifi
+        url: tel:+5581987199315
+        id: 8_2166_hotlinkinternet
+      - title: POLO IT (Banco de Dados)
+        icon: fas fa-database
+        url: mailto:dbacenter@polo-it.com.br
+        id: 9_2166_poloitbancodedados
+      - title: Telefone POLO IT
+        icon: fas fa-phone
+        url: tel:+557134153050
+        id: 10_2166_telefonepoloit
+      - title: Manutenção SEDE - Zé Paulo
+        icon: fas fa-tools
+        url: tel:+5581997432928
+        id: 11_2166_manutenosedezpaulo

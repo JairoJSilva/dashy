@@ -2,10 +2,11 @@ pageInfo:
   title: Intranet VEM
   description: Central de sistemas internos
   logo: https://cdn-icons-png.flaticon.com/512/1055/1055687.png
+
 appConfig:
-  theme: glass
+  theme: nord
   layout: auto
-  iconSize: medium
+  iconSize: large
   language: pt-BR
   startingView: default
   defaultOpeningMethod: newtab
@@ -13,83 +14,118 @@ appConfig:
   enableFontAwesome: true
 
 sections:
+
   - name: Administrativo
     icon: fas fa-building
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_1486_cartovem
+
   - name: TIC
     icon: fas fa-network-wired
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_224_cartovem
+
   - name: SAC
     icon: fas fa-headset
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_215_cartovem
+
   - name: Rodoviario
     icon: fas fa-bus
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_1054_cartovem
+
   - name: Bureau
     icon: fas fa-print
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_612_cartovem
+
   - name: Atendimento
     icon: fas fa-users
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_1144_cartovem
+
   - name: Supervisão Atendimento
     icon: fas fa-user-tie
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_2379_cartovem
+
   - name: Supervisão SAC
     icon: fas fa-user-cog
     items:
       - title: Cartão VEM
         icon: favicon
         url: https://cartaovem.com.br/home
-        id: 0_1450_cartovem
+
   - name: Livre Acesso
     icon: fas fa-door-open
     items:
       - title: VEM Livre Acesso
         icon: favicon
         url: https://vemlivreacesso.com.br/odin/
-        id: 0_1152_vemlivreacesso
+
   - name: Suporte e Fornecedores
     icon: fas fa-tools
     items:
+
       - title: VERDANA (Zabbix / Verdanatech)
-        icon: favicon
+        icon: fas fa-server
         url: https://atendimento.verdanatech.com
-        id: 0_2166_verdanazabbixverdanatech
+
+      - title: Contato VERDANA
+        icon: fas fa-phone
+        url: tel:+558130914252
+
+      - title: Email VERDANA
+        icon: fas fa-envelope
+        url: mailto:atendimento@verdanatech.com
+
+      - title: PROCENGE (Piramide)
+        icon: fas fa-phone
+        url: tel:+5581991450999
 
       - title: SURFIX (Veeam Cloud)
-        icon: favicon
+        icon: fas fa-database
         url: https://surfixdatacenter.movidesk.com
-        id: 4_2166_surfixveeamcloud
+
+      - title: Telefone SURFIX
+        icon: fas fa-phone
+        url: tel:08000810500
 
       - title: INORPEL (Firewall)
-        icon: favicon
+        icon: fas fa-shield-alt
         url: https://inorpel-cybersecurity.movidesk.com/Account/Login?ReturnUrl=%2f
-        id: 6_2166_inorpelfirewall
+
+      - title: Telefone INORPEL
+        icon: fas fa-phone
+        url: tel:+5583988024263
+
+      - title: HOTLINK (Internet)
+        icon: fas fa-wifi
+        url: tel:+5581987199315
+
+      - title: POLO IT (Banco de Dados)
+        icon: fas fa-database
+        url: mailto:dbacenter@polo-it.com.br
+
+      - title: Telefone POLO IT
+        icon: fas fa-phone
+        url: tel:+557134153050
+
+      - title: Manutenção SEDE - Zé Paulo
+        icon: fas fa-tools
+        url: tel:+5581997432928
