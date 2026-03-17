@@ -1,0 +1,29 @@
+pageInfo:
+  title: Intranet Urbana-PE
+  description: Painel de acesso rápido
+
+sections:
+
+  - name: DevOps
+    icon: fas fa-server
+    items:
+
+      - title: CartãoVEM-ADMIN
+        icon: hl-grafana
+        url: https://atendimento.cartaovem.com.br/login
+
+      - title: Livre-Acesso
+        icon: hl-prometheus
+        url: https://vemlivreacesso.com.br/odin/
+
+  - name: Infraestrutura
+    icon: fas fa-network-wired
+    items:
+
+      - title: Portainer
+        icon: hl-portainer
+        url: http://portainer.local
+
+      - title: Rancher
+        icon: hl-rancher
+        url: http://rancher.local
