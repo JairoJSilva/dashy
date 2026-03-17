@@ -1,5 +1,5 @@
 pageInfo:
-  title: Painel Corporativo
+  title: Intranet VEM.
   description: Portal interno de acesso rápido
   navLinks: []
   footerText: Intranet
@@ -10,14 +10,16 @@ appConfig:
   iconSize: medium
   language: pt-BR
 
+
+
 sections:
 
   - name: Administrativo
     icon: fas fa-building
     items:
       - title: Cartão VEM
-        icon: fas fa-id-card
-        url: https://cartaovem.com.br
+        icon: favicon
+        url: https://cartaovem.com.br/home
         target: newtab
 
   - name: TIC
@@ -75,3 +77,13 @@ sections:
         icon: fas fa-id-card
         url: https://cartaovem.com.br
         target: newtab
+
+
+  - name: Livre Acesso
+    icon: fas fa-user-cog
+    items:
+      - title: Cartão VEM
+        icon: favicon
+        url: https://vemlivreacesso.com.br/odin
+        target: newtab
+  
